@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_1"
+    android:background="@color/white">
+
+    <!-- fragment1에서 버튼을 누르면
+    일기쓰는 창으로 가고
+    맨위에 썸원처럼 고정된 바가 존재,
+    뒤로가기, 펫북, 확인이 있고 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="480dp"        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_1_date"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/moveToWrite"
+            android:text="오늘의 일기 쓰러가기"
+            android:padding="0dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:background="#00ff0000"
+            android:fontFamily="@font/ant_font_file"/>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:textSize="30dp"
+                android:text="개"
+                android:textColor="@color/black"
+                android:id="@+id/btn_dog"
+                android:background="@drawable/circle_border"
+                android:fontFamily="@font/ant_font_file"/>
+
+            <Button
+                android:layout_width="130dp"
+                android:textColor="@color/black"
+                android:layout_height="130dp"
+                android:textSize="30dp"
+                android:text="고양이"
+                android:id="@+id/btn_cat"
+                android:background="@drawable/circle_border"
+                android:fontFamily="@font/ant_font_file"/>
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="햄스터"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:id="@+id/btn_hamster"
+                android:background="@drawable/circle_border"
+                android:fontFamily="@font/ant_font_file"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="새"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:id="@+id/btn_bird"
+                android:background="@drawable/circle_border"
+                android:fontFamily="@font/ant_font_file"/>
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:textColor="@color/black"
+                android:text="물고기"
+                android:textSize="30dp"
+                android:id="@+id/btn_fish"
+                android:background="@drawable/circle_border"
+                android:fontFamily="@font/ant_font_file"/>
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:textColor="@color/black"
+                android:text="토끼"
+                android:textSize="30dp"
+                android:id="@+id/btn_rabbit"
+                android:background="@drawable/circle_border"
+                android:fontFamily="@font/ant_font_file"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:text="새롭고 특별한 다른 친구들"
+        android:id="@+id/btn_others"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:background="@drawable/circle_border"
+        android:fontFamily="@font/ant_font_file"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/animal"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:id="@+id/btn_toNext"
+        android:fontFamily="@font/ant_font_file"/>
+</LinearLayout>

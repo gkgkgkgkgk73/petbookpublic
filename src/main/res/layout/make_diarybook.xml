@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.petbook.makeDiaryBookActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <!--TODO 다이어리 정보에 필요한 내용-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/title"
+        android:text="책 만들기!"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="책 예시"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ex_diary_image"
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:src="@drawable/book_img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="컬러 예시"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:id="@+id/ex_diary_color"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:src="@drawable/chfhr" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/diary_explanation"
+        android:textColor="@color/black"
+        android:text="내 반려동물과의 추억을 다이어리로 만들어보세요. 장당 -의 가격이며, 다이어리 이미지는 예시와 같습니다. 일기의 모든 내용이 다이어리로 만들어집니다."
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/payment"
+        android:layout_marginTop="50dp"
+        android:text="결제"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

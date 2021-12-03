@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PetBook</string>
+    <string name="font">fonts/ant_font_otf.ttf</string>
+</resources>
